@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".after100">
+    <fragment
+        android:id="@+id/ar_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/trunk"
+                android:src="@drawable/trunk"
+                android:layout_width="100dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/skull"
+                android:src="@drawable/skull"
+                android:layout_width="100dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/Ambulance"
+                android:src="@drawable/ambulance"
+                android:layout_width="100dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/horse"
+                android:src="@drawable/horse"
+                android:layout_width="200dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/dark"
+                android:src="@drawable/dark"
+                android:layout_width="200dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/cat"
+                android:src="@drawable/cat"
+                android:layout_width="200dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/mask"
+                android:src="@drawable/gasmask"
+                android:layout_width="200dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/trial"
+                android:src="@drawable/factory"
+                android:layout_width="200dp"
+                android:layout_height="50dp"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

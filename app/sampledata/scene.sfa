@@ -1,0 +1,105 @@
+{
+  materials: [
+    {
+      name: 'defaultMat',
+      parameters: [
+        {
+          baseColorFactor: null,
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          diffuseColor: 'defaultMat_diffuse',
+        },
+        {
+          normal: 'defaultMat_normal',
+        },
+        {
+          metallicFactor: null,
+        },
+        {
+          roughnessFactor: null,
+        },
+        {
+          specularFactor: [
+            0,
+            0,
+            0,
+          ],
+        },
+        {
+          glossinessFactor: 1,
+        },
+        {
+          specularGlossiness: 'defaultMat_specularGlossiness',
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.20221199999999995,
+  },
+  samplers: [
+    {
+      file: 'sampledata/textures/defaultMat_diffuse.jpg',
+      name: 'defaultMat_diffuse',
+      pipeline_name: 'textures/defaultMat_diffuse.jpg',
+    },
+    {
+      file: 'sampledata/textures/defaultMat_specularGlossiness.png',
+      name: 'defaultMat_specularGlossiness',
+      pipeline_name: 'textures/defaultMat_specularGlossiness.png',
+    },
+    {
+      file: 'sampledata/textures/defaultMat_normal.jpg',
+      name: 'defaultMat_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/defaultMat_normal.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

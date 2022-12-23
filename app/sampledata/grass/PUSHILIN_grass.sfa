@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'None',
+      parameters: [
+        {
+          baseColor: 'PUSHILIN_grass',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/grass/PUSHILIN_grass.obj',
+    name: 'PUSHILIN_grass',
+    recenter: 'root',
+    scale: 0.96718499999999996,
+  },
+  samplers: [
+    {
+      file: 'sampledata/grass/PUSHILIN_grass.png',
+      name: 'PUSHILIN_grass',
+      pipeline_name: 'PUSHILIN_grass.png',
+    },
+  ],
+  version: '0.54:2',
+}

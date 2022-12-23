@@ -1,0 +1,43 @@
+{
+  materials: [
+    {
+      name: '_crayfishdiffuse',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.082400000000000001,
+            0.48630000000000001,
+            0.050999999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.25,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/grass1/Tuft of grass.obj',
+    name: 'Tuft of grass',
+    recenter: 'root',
+    scale: 0.0043359999999999996,
+  },
+  version: '0.54:2',
+}

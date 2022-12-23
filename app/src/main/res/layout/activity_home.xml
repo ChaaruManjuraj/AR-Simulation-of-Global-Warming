@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="120"
+    android:orientation="vertical"
+    android:background="#181717"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+
+
+        android:layout_weight="35"
+        android:background="@drawable/button_border"
+        android:backgroundTint="@null"
+        android:text="CURRENT SCENARIO"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:backgroundTint="@null" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_fifty"-->
+<!--        android:layout_weight="30"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:text="AFTER 50 YEARS FROM NOW"-->
+<!--        android:textSize="25dp"-->
+<!--        android:background="@drawable/button_border"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        app:backgroundTint="@null"-->
+<!--        android:backgroundTint="@null"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+    <Button
+        android:id="@+id/btn_hundred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="35"
+        android:background="@drawable/button_border"
+        android:backgroundTint="@null"
+        android:text="AFTER 100 YEARS FROM NOW"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/btn_learn_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="35"
+        android:background="@drawable/button_border"
+        android:backgroundTint="@null"
+        android:text="LEARN MORE"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:backgroundTint="@null" />
+
+
+</LinearLayout>

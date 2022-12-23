@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181717"
+    tools:context=".LearnMoreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:justificationMode="inter_word"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="Global climate change has already had observable effects on the environment. Glaciers have shrunk, ice on rivers and lakes is breaking up earlier, plant and animal ranges have shifted and trees are flowering sooner.\n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="20dp"
+                android:justificationMode="inter_word"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:text="Effects that scientists had predicted in the past would result from global climate change are now occurring: loss of sea ice, accelerated sea level rise and longer, more intense heat waves.\n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/polar_bear"
+                android:cropToPadding="false"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="20dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textColor="#FFFFFF"
+                android:text="\nA warmer average global temperature will cause a higher rate of evaporation, causing the water cycle to “speed up.” More water vapor in the atmosphere will lead to more precipitation. Global average precipitation increases by 1% to 3% for each degree of warming, which means we are looking at a rainier and snowier future. By 2100, precipitation will increase at least 1% and a maximum increase of about 12%. However, changes in precipitation will not be evenly distributed. Some locations will get more, and others will see less.\n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="20dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="2dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="2dp"
+                android:text="None of these tipping points are considered very likely to occur over the next several decades. Still, the consequences of any of them are so severe, and the fact that we cannot retreat from them once they’ve been set in motion is so problematic, that we must keep them in mind when evaluating the overall risks associated with climate change.\n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

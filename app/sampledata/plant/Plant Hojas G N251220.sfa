@@ -1,0 +1,87 @@
+{
+  materials: [
+    {
+      name: '_Hojas_G01___Default',
+      parameters: [
+        {
+          baseColor: '1234asdf',
+        },
+        {
+          baseColorTint: [
+            0.64710000000000001,
+            0.93330000000000002,
+            0.58819999999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_Hojas_G02___Default',
+      parameters: [
+        {
+          baseColor: 'SRM_rust',
+        },
+        {
+          baseColorTint: [
+            0.4667,
+            0.33329999999999999,
+            0.19220000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/plant/Plant Hojas G N251220.obj',
+    name: 'Plant Hojas G N251220',
+    recenter: 'root',
+    scale: 0.3330800000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/plant/SRM_rust.jpg',
+      name: 'SRM_rust',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'D:\\New folder 2\\SRM_rust.jpg',
+    },
+    {
+      file: 'sampledata/plant/1234asdf.jpg',
+      name: '1234asdf',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'D:\\New folder 2\\1234asdf.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

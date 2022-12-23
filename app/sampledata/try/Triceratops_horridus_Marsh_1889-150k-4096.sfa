@@ -1,0 +1,104 @@
+{
+  materials: [
+    {
+      name: 'default',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Triceratops_horridus_Marsh_1889-150k-4096-diffuse',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Triceratops_horridus_Marsh_1889-150k-4096-normals',
+        },
+        {
+          metallicFactor: 0.10000000000000001,
+        },
+        {
+          roughnessFactor: 0.80000000000000004,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: 'Triceratops_horridus_Marsh_1889-150k-4096-occlusion',
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/try/Triceratops_horridus_Marsh_1889-150k-4096.gltf',
+    name: 'Triceratops_horridus_Marsh_1889-150k-4096',
+    recenter: 'root',
+    scale: 0.60179499999999997,
+  },
+  samplers: [
+    {
+      file: 'sampledata/try/Triceratops_horridus_Marsh_1889-150k-4096-diffuse.jpg',
+      name: 'Triceratops_horridus_Marsh_1889-150k-4096-diffuse',
+      pipeline_name: 'Triceratops_horridus_Marsh_1889-150k-4096-diffuse.jpg',
+    },
+    {
+      file: 'sampledata/try/Triceratops_horridus_Marsh_1889-150k-4096-occlusion.jpg',
+      name: 'Triceratops_horridus_Marsh_1889-150k-4096-occlusion',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Triceratops_horridus_Marsh_1889-150k-4096-occlusion.jpg',
+    },
+    {
+      file: 'sampledata/try/Triceratops_horridus_Marsh_1889-150k-4096-normals.jpg',
+      name: 'Triceratops_horridus_Marsh_1889-150k-4096-normals',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'Triceratops_horridus_Marsh_1889-150k-4096-normals.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
